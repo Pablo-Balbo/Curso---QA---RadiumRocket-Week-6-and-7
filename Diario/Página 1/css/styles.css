@@ -1,12 +1,245 @@
 * {
-
+    padding: 0;
+    margin: 0;
 }
 
-h1 {
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+section {
+    border: 1px solid rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+}
+
+/*Article*/
+
+#ovacion {
+    font-family: sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+#h1 h1 {
+    margin: 20px 0 45px;
+}
+
+h2 {
+    margin: 15px 0 15px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color: rgb(51, 51, 51);
+}
+
+#icon-facebook {
+    position: relative;
+    padding: 15px 19px;
+    font-size: 18px;
+    color: white;
+    background-color: #34518d;
+    border-radius: 200px;
+}
+
+#icon-twitter {
+    color: white;
+    background-color: #3493d4;
+}
+
+#icon-mail {
+    color: white;
+    background-color: #000000;
+}
+
+#icon-comment {
+    color: white;
+    background-color: #000000;
+}   
+
+#icon-twitter, #icon-mail, #icon-comment {
+    padding: 15px 15px;
+    font-size: 18px;
+    border-radius: 200px;
+}
+
+article {
+    width: 1060px;
+    align-content: justify;
+}
+
+article .title {
+    display: block;
+    float: left;  
+}
+
+article .title span {
+    width: 58.3333px;
+    height: 14px;
+    margin-bottom: 30px;
+    color: rgb(62, 171, 225);
+}
+
+article .title h1 {
     font-family: 'Roboto', sans-serif;
     font-size: 60px;
+    font-weight: 700;
+    width: 1060px;
+    height: 198px;
 }
 
-h4 {
-    font font-family: Arial;
+article h4 {
+    font-family: arial;
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: 400;
 }
+
+.redes_sociales {
+    margin: 60px 0 15px;
+}
+
+article .title .redes_sociales ul li {
+    display: inline;
+    list-style: none;
+}
+
+article .title .redes_sociales ul li img {
+    width: 50px;
+    height: 50px;
+    padding: 0 10px 0 0;
+    margin: 0;
+    border-radius: 100%;
+    display: inline;
+}
+
+article figure {
+    position: relative;
+}
+
+article figure div {
+    margin-bottom: solid 1px black;
+}
+
+article span {
+    width: 697px;
+    height: 26px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+article main span {
+    font-size: 14px;
+    font-family: sans-serif;
+    color: rgb(51, 51, 51);
+}
+
+article main p {
+    width: 697px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+article main p a {
+    text-decoration: none;
+    color: rgb(62, 171, 225);
+}
+
+.main-text {
+    padding: 30px 0px;
+}
+
+.main-text p {
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    color: rgb(51, 51, 51);
+}
+
+#container-video video {
+    width: 622px;
+}
+
+/*Aside*/
+
+aside {
+    border: 1px solid blue;
+    position: relative;
+    width: 5000px;
+}
+
+aside h3 {
+    position: relative;
+    width: auto;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    text-align: left;
+    font-family: sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #000;
+    font-size: 16px;
+    border-bottom: 4px solid #eee;
+}
+
+aside h3::after {
+    content: '';
+    width: 30px;
+    height: 4px;
+    background: #3EABE1;
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+}
+
+#container-mas-leidas {
+    border: 1px solid rgb(255, 0, 0);
+    width: 200px;
+}
+
+.items-mas-leidas {
+    border: 1px solid orange;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid #dbd9d6;
+}
+
+.items-mas-leidas .number {
+    border: 1px solid red;
+    padding: 10px 20px 10px 0px;
+    font-size: 40px;
+    font-weight: lighter;
+    font-family: "Roboto", sans-serif;
+}
+
+.items-mas-leidas h4 {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: rgb(62, 171, 225);
+}
+
+.items-mas-leidas .text p {
+    padding: 10px 15px 10px 0px;
+    font-size: 15px;
+    font-family: "Roboto",sans-serif;
+    line-height: 19px;
+    font-weight: 700;
+}
+
+.items-mas-leidas img {
+    margin: 20px 0px;
+    width: 120px;
+}
+
+figcaption {
+    margin: 10px 10px 20px 0px;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: 400;
+    border-bottom: 1px solid rgb(199, 199, 199);
+}
+
+
