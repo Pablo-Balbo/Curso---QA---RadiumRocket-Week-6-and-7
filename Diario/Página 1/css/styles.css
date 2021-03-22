@@ -166,7 +166,6 @@ article main p a {
 /*Aside*/
 
 aside {
-    border: 1px solid blue;
     position: relative;
     width: 5000px;
 }
@@ -196,19 +195,16 @@ aside h3::after {
 }
 
 #container-mas-leidas {
-    border: 1px solid rgb(255, 0, 0);
     width: 200px;
 }
 
 .items-mas-leidas {
-    border: 1px solid orange;
     display: flex;
     flex-direction: row;
     border-bottom: 1px solid #dbd9d6;
 }
 
 .items-mas-leidas .number {
-    border: 1px solid red;
     padding: 10px 20px 10px 0px;
     font-size: 40px;
     font-weight: lighter;
@@ -227,6 +223,8 @@ aside h3::after {
     font-family: "Roboto",sans-serif;
     line-height: 19px;
     font-weight: 700;
+    color: #000000;
+    text-decoration-style: none;
 }
 
 .items-mas-leidas img {
