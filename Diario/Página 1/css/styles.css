@@ -4,8 +4,7 @@
 }
 
 .container {
-    display: flex;
-    justify-content: center;
+   margin: 0 10%;
 }
 
 section {
@@ -123,6 +122,14 @@ article figure div {
     margin-bottom: solid 1px black;
 }
 
+figcaption {
+    margin: 10px 10px 20px 0px;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: 400;
+    border-bottom: 1px solid rgb(199, 199, 199);
+}
+
 article span {
     width: 697px;
     height: 26px;
@@ -148,7 +155,7 @@ article main p a {
 }
 
 .main-text {
-    padding: 30px 0px;
+    padding: 30px 0px 5px;
 }
 
 .main-text p {
@@ -232,12 +239,28 @@ aside h3::after {
     width: 120px;
 }
 
-figcaption {
-    margin: 10px 10px 20px 0px;
-    font-family: Arial;
-    font-size: 12px;
-    font-weight: 400;
-    border-bottom: 1px solid rgb(199, 199, 199);
+footer .btn {
+    display: flex;
+    justify-content: space-between;
 }
 
+footer .btn a {
+    display: inline-block;
+    text-decoration: none;
+    width: 25px;
+    height: 30px;
+    padding: 8px 12px;
+    background-color: #333;
+    color: #eee;
+}
 
+footer .btn a:hover {
+    background-color: #eee;
+    color: black;
+}
+
+footer .btn span {
+    font-size: 35px;
+    position: relative;
+    top: -10px;
+}
